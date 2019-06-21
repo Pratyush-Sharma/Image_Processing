@@ -94,7 +94,8 @@ cv2.destroyAllWindows()
 
 """
 
-
+"""
+#for image
 
 im = cv2.imread('45.png')
 img = cv2.Canny(im,100,200)
@@ -103,5 +104,6 @@ img = cv2.Canny(im,100,200)
 cv2.imshow('gray',img)
 ret,thresh = cv2.threshold(img,127,255,0)
 cv2.imshow('thr',thresh)
-image, contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+#image, contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
 cv2.waitKey(0)
+"""
