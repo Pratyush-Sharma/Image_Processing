@@ -1,4 +1,4 @@
-#Chips quality test
+# Chips quality test
 
 This project aimed on determining the quality of test 25 sample chips in an image i.e. determining whether they are fit for packing and selling based on spices(hazy red) colour intensity on plane(yellowish) potato chip.
 
